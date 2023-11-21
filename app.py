@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 st.title("Web App")
-これがstreamlitアプリだ
+st.title(""これがstreamlitアプリだ"")
 data = {
     'lat': np.random.randn(100) / 100 + 35.68,
     'lon': np.random.randn(100) / 100 + 139.75,
