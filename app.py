@@ -6,16 +6,6 @@ import pandas as pd
 
 st.title("Web App")
 
-# プルダウンを表示させる
-what_lang = st.selectbox(
-    'あなたの好きな言語を選んでね！',
-     ('python','Rust', 'go', 'C++'))
-
-# プルダウンサイドバーに表示させる
-what_lang_size = st.sidebar.selectbox(
-    'あなたの好きな言語を選んで！',
-     ('python','Rust', 'go', 'C++'))
-
 answer = st.button('Say hello')
 
 if answer == True:
